@@ -9,9 +9,7 @@
     <title>BSrE Policy Privacy</title>    
     <link href="./res/app.097dcf43.css" rel="preload" as="style">
     <link href="./res/app.097dcf43.css" rel="stylesheet">
-    <script type="text/javascript" async="" charset="utf-8" src="./res/recaptcha__en.js" crossorigin="anonymous"
-        integrity="sha384-Pgzxh1AwnkDgbWKtYDFLE/r3ApPn/Q8WuDIGgofHUvDRypiXM2Mes4UTV5JTaDp+"></script>
-    <script recaptcha-v3-script="" src="./res/api.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfLHFYrAAAAAHWi9qZzh-Jt7ptYLzRAVNzwFFxh"></script>
     <style>
         .logo-container {
             display: flex;
@@ -513,6 +511,11 @@
     <script src="./res/chunk-vendors.4b2b70be.js">
     </script>
     <script src="./res/app.cd243220.js">
+    </script>
+    <script>
+        grecaptcha.ready(function() {
+            grecaptcha.execute('6LfLHFYrAAAAAHWi9qZzh-Jt7ptYLzRAVNzwFFxh', {action: 'privacy_page_load'});
+        });
     </script>
 </body>
 
